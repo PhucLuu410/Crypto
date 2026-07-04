@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -std=c99 -ISHA256 -IAES128
+CFLAGS = -g -Wall -Wextra -std=c99 -ISHA256 -IAES128
 TARGET = main
 
 OBJS = Build/SHA256.o Build/AES128.o Build/main.o
